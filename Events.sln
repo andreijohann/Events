@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Core", "Events.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Persistance", "Events.Persistance\Events.Persistance.csproj", "{AFCE58EF-E649-4750-85A5-BB3C8A1622D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Web", "Events.Web\Events.Web.csproj", "{F98B9515-FC43-4A8C-AD54-1C0B2856C894}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AFCE58EF-E649-4750-85A5-BB3C8A1622D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFCE58EF-E649-4750-85A5-BB3C8A1622D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFCE58EF-E649-4750-85A5-BB3C8A1622D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98B9515-FC43-4A8C-AD54-1C0B2856C894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98B9515-FC43-4A8C-AD54-1C0B2856C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98B9515-FC43-4A8C-AD54-1C0B2856C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98B9515-FC43-4A8C-AD54-1C0B2856C894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{412E0425-4B41-463E-ACFF-88EEC5995F07} = {C928A9BC-5B46-484E-8C37-F2D4FD7042AC}
 		{AFCE58EF-E649-4750-85A5-BB3C8A1622D3} = {0827F4BC-D5BD-45E0-94D7-F0571E7E1117}
+		{F98B9515-FC43-4A8C-AD54-1C0B2856C894} = {462F7216-7868-461D-8B29-D423A0743488}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {262E1BC3-7733-44AF-8ABE-ECE76921A747}
